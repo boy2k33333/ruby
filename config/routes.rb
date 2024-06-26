@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get '/product', to: 'product#index'
   get "/student", to: "student#index"  
   get "/book", to: "book#index"
+  get "/flower",to: "flower#index"
 end
